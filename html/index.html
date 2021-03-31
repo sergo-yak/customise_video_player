@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://cdn.jwplayer.com/libraries/5jBuqoni.js"></script>
 </head>
 <body>
     <section>
@@ -30,7 +31,44 @@
 
         <div id="bar"></div>
     </section>
+<!-- *** JWPlayer *** -->
+    <div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+        <div>
+            <ol>
+                <li><a href="#" onclick="jwplayer().seek(20);">First chapter</a></li>
+                <li><a href="#" onclick="jwplayer().seek(40);">Second chapter</a></li>
+                <li><a href="#" onclick="jwplayer().seek(120);">Third chapter</a></li>
+                <li><a href="#" onclick="jwplayer().seek(150);">The last chapter</a></li>
+            </ol>
+        </div>
 
+        <div id="myElement"></div>
+    </div>
+    <script src="assets/js/jwplayer.js"></script>
+<!-- *** JWPlayer *** -->
+<script type="text/vtt" id="innerChapters">
+WEBVTT
+
+Chapter 1
+00:00:10.400 --> 00:00:42.000
+Intro (inner chapters)
+
+Chapter 2
+00:00:42.000 --> 00:01:10.000
+What is moventing? (inner chapters)
+
+Chapter 3
+00:01:10.000 --> 00:01:45.000
+How to prescribing moventing (inner chapters)
+
+Chapter 4
+00:01:45.000 --> 00:02:01.600
+Tolerability (inner chapters)
+
+Chapter 5
+00:02:01.600 --> 00:03:00.000
+Some sub-chapter(inner chapters)
+</script>
 <script src="assets/js/script.js"></script>
 
 </body>
