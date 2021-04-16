@@ -8,6 +8,20 @@
     <script src="https://cdn.jwplayer.com/libraries/5jBuqoni.js"></script>
 </head>
 <body>
+    <!-- *** JWPlayer *** -->
+    <div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+        <div class="wrapper">
+            <div class="left_block">
+                <div id="myElement"></div>
+            </div>
+            <div class="right_block" id="jwbar"></div>
+        </div>
+    </div>
+
+    <script src="assets/js/jwplayer.js"></script>
+    <!-- *** JWPlayer *** -->
+    <div style="clear: both"></div>
+
     <section>
         <div>
             <u>
@@ -23,29 +37,6 @@
         </div>
     </section>
 
-    <section>
-        <video width="932" height="524" poster="assets/poster.png" controls="true" id="vplayer">
-            <track src="assets/chapters_new.vtt" kind="chapters" default>
-            A browser with <a href="http://www.jwplayer.com/html5/">HTML5 text track support</a> is required.
-        </video>
-
-        <div id="bar"></div>
-    </section>
-<!-- *** JWPlayer *** -->
-    <div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
-        <div>
-            <ol>
-                <li><a href="#" onclick="jwplayer().seek(20);">First chapter</a></li>
-                <li><a href="#" onclick="jwplayer().seek(40);">Second chapter</a></li>
-                <li><a href="#" onclick="jwplayer().seek(120);">Third chapter</a></li>
-                <li><a href="#" onclick="jwplayer().seek(150);">The last chapter</a></li>
-            </ol>
-        </div>
-
-        <div id="myElement"></div>
-    </div>
-    <script src="assets/js/jwplayer.js"></script>
-<!-- *** JWPlayer *** -->
 <script type="text/vtt" id="innerChapters">
 WEBVTT
 
