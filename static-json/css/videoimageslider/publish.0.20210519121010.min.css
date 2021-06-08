@@ -1,0 +1,92 @@
+.videoimageslider.base{overflow:hidden}
+.videoimageslider__base{overflow:hidden}
+@media(min-width:1440px){.videoimageslider__base{max-width:1680px}
+}
+@media(max-width:767.98px){.pluginCardAnimationModal__back .videoimageslider__base{position:relative;overflow:visible}
+}
+.videoimageslider__headline{font-size:1.25rem;font-family:"MBCorpoSTitle-Regular-Web","DaimlerCS-Regular",Helvetica,Arial,sans-serif;line-height:1.2;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding-top:0;padding-bottom:.1049em;margin-top:-.0379em;margin-bottom:24px}
+@media(min-width:1440px){.videoimageslider__headline{font-size:1.375rem;font-family:"MBCorpoSTitle-Regular-Web","DaimlerCS-Regular",Helvetica,Arial,sans-serif;line-height:1.18182;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding-top:0;padding-bottom:.08564em;margin-top:-.055em}
+}
+.aem--is-dark .videoimageslider__headline,.aem--is-light .aem--is-dark .videoimageslider__headline{color:#fff}
+.aem--is-light .videoimageslider__headline,.aem--is-dark .aem--is-light .videoimageslider__headline{color:#333}
+.videoimageslider--full .videoimageslider__headline{display:none}
+.videoimageslider__media{outline:0;position:relative}
+.videoimageslider__media.mediazoom__item{bottom:-0.5px;margin-top:-1px}
+.pi__base .videoimageslider__media{left:0}
+.videoimageslider--large .videoimageslider__media{width:100%;height:0;padding-bottom:56.25%;position:relative}
+.videoimageslider--large .videoimageslider__media iframe,.videoimageslider--large .videoimageslider__media picture{position:absolute;top:0;left:0;bottom:0;right:0}
+.videoimageslider--large .videoimageslider__media iframe>img,.videoimageslider--large .videoimageslider__media picture>img{width:100%}
+.videoimageslider--medium .videoimageslider__media{width:100%;height:0;padding-bottom:50%;position:relative;overflow:hidden}
+.videoimageslider--medium .videoimageslider__media iframe,.videoimageslider--medium .videoimageslider__media picture{position:absolute;top:0;left:0;bottom:0;right:0}
+.videoimageslider--medium .videoimageslider__media iframe>img,.videoimageslider--medium .videoimageslider__media picture>img{width:100%}
+@media(min-width:768px){.videoimageslider--medium .videoimageslider__media{width:100%;height:0;padding-bottom:33.33333%;position:relative;overflow:visible}
+    .videoimageslider--medium .videoimageslider__media iframe,.videoimageslider--medium .videoimageslider__media picture{position:absolute;top:0;left:0;bottom:0;right:0}
+    .videoimageslider--medium .videoimageslider__media iframe>img,.videoimageslider--medium .videoimageslider__media picture>img{width:100%}
+}
+.videoimageslider__caption{margin-left:auto;margin-right:auto;max-width:1680px;width:90%;font-size:1rem;font-family:"MBCorpoSTitle-Regular-Web","DaimlerCS-Regular",Helvetica,Arial,sans-serif;line-height:1.375;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding-top:0;padding-bottom:.10281em;margin-top:.43919em;color:#999;padding-bottom:0;margin-bottom:0}
+@media(min-width:480px){.videoimageslider__caption{width:93.33%}
+}
+@media(min-width:768px){.videoimageslider__caption{width:714px}
+}
+@media(min-width:1024px){.videoimageslider__caption{width:918px}
+}
+@media(min-width:1280px){.videoimageslider__caption{width:1154px}
+}
+@media(min-width:1440px){.videoimageslider__caption{width:1352px}
+}
+@media(max-width:479px){.videoimageslider__caption{-webkit-box-flex:0;-ms-flex:0 0 calc(83.33333% + 6.9444%);flex:0 0 calc(83.33333% + 6.9444%);max-width:calc(83.33333% + 6.9444%);margin-left:calc(8.33333% - 3.4722%)}
+    .rtl .videoimageslider__caption{/*!rtl:begin:ignore*/margin-left:0;margin-right:calc(8.33333% - 3.4722%);/*!rtl:end:ignore*/}
+}
+@media(min-width:480px) and (max-width:767px){.videoimageslider__caption{-webkit-box-flex:0;-ms-flex:0 0 calc(83.33333% + 4.4642%);flex:0 0 calc(83.33333% + 4.4642%);max-width:calc(83.33333% + 4.4642%);margin-left:calc(8.33333% - 2.2321%)}
+    .rtl .videoimageslider__caption{/*!rtl:begin:ignore*/margin-left:0;margin-right:calc(8.33333% - 2.2321%);/*!rtl:end:ignore*/}
+}
+.aem--is-light .videoimageslider__caption,.aem--is-dark .aem--is-light .videoimageslider__caption{color:#666}
+@media(min-width:768px){.videoimageslider__caption{margin-bottom:6px}
+}
+.img__base+.videoimageslider__caption{font-size:1rem;font-family:"MBCorpoSTitle-Regular-Web","DaimlerCS-Regular",Helvetica,Arial,sans-serif;line-height:1.375;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding-top:0;padding-bottom:.10281em;margin-top:.43919em}
+#par_videoimageslide+.videoimageslider__caption{font-size:1rem;font-family:"MBCorpoSTitle-Regular-Web","DaimlerCS-Regular",Helvetica,Arial,sans-serif;line-height:1.375;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding-top:0;padding-bottom:.10281em;margin-top:.87669em}
+.videoimageslider__caption .videoimageslider__slide .videoimageslider__caption{display:none}
+.videoimageslider__caption.mediazoom__media{padding-bottom:0}
+@media(max-width:767.98px){.pluginCardAnimationModal__back .videoimageslider__caption{width:100%;margin-bottom:0}
+    .pluginCardAnimationModal__back .videoimageslider__caption p{display:block;white-space:normal}
+}
+.videoimageslider__slide{overflow:hidden}
+.videoimageslider__slide .img__base img{width:100%}
+.videoimageslider--full .videoimageslider__slide .img__base img{padding-top:0}
+.videoimageslider__slide--invalid{background-color:#000}
+.videoimageslider--large .videoimageslider__slide--invalid .img__base img{padding-top:11.5%}
+.videoimageslider__slider{width:100%;margin-bottom:0;display:inline-block}
+.videoimageslider__slider.slick-slider{opacity:0;margin-bottom:0}
+.videoimageslider__slider.slick-initialized{opacity:1}
+.videoimageslider__slider .slick-slide img{width:100%}
+.videoimageslider__slider .slick-prev,.videoimageslider__slider .slick-next{display:inline-block;text-decoration:none;height:34px;opacity:0;pointer-events:none}
+.videoimageslider__slider .slick-prev:before,.videoimageslider__slider .slick-next:before{font-size:34px;display:block;color:#fff;font-family:"DaimlerIcons" !important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:"";opacity:1}
+.videoimageslider__slider .slick-prev:before,.videoimageslider__slider .slick-next:before{text-shadow:0 0 6px rgba(0,0,0,0.18)}
+.videoimageslider__slider .slick-prev:hover,.videoimageslider__slider .slick-next:hover{height:34px}
+@media(max-width:767.98px){.videoimageslider__slider .slick-dots{position:static}
+}
+@media(min-width:768px){.videoimageslider__slider .slick-dots{width:auto;left:50%;-webkit-transform:translate(-50%);transform:translate(-50%);white-space:nowrap}
+}
+.videoimageslider__slider .slick-prev{left:20px}
+.videoimageslider__slider .slick-next{right:20px}
+.videoimageslider__slider .slick-next:before{-webkit-transform:rotate(180deg);transform:rotate(180deg);display:inline-block}
+.videoimageslider__slider .slick-slide{outline:0}
+@media(min-width:1280px){.videoimageslider__slider:hover .slick-next,.videoimageslider__slider:hover .slick-prev{opacity:1;pointer-events:all}
+}
+@media(min-width:768px){.pi__content .videoimageslider--full{width:768px}
+}
+@media(min-width:1024px){.pi__content .videoimageslider--full{width:1024px}
+}
+@media(min-width:1280px){.pi__content .videoimageslider--full{width:1280px}
+}
+@media(min-width:1440px){.pi__content .videoimageslider--full{width:1440px}
+}
+@media(min-width:768px){.pitabnav__base .videoimageslider--full{width:714px}
+}
+@media(min-width:1024px){.pitabnav__base .videoimageslider--full{width:918px}
+}
+@media(min-width:1280px){.pitabnav__base .videoimageslider--full{width:1154px}
+}
+@media(min-width:1440px){.pitabnav__base .videoimageslider--full{width:1352px}
+}
+.pi__content>.videoimageslider .aem--grid-content--full-width-in-specific-context{max-width:100%;width:100%;padding-left:0;padding-right:0}

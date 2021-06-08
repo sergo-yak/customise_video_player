@@ -1,0 +1,49 @@
+.aem--contentsearch__base{display:block;-webkit-transition:opacity,visibility;transition:opacity,visibility;-webkit-transition-duration:300ms,1ms;transition-duration:300ms,1ms;-webkit-transition-delay:.1s,1ms;transition-delay:.1s,1ms;background:rgba(0,0,0,0.9);color:#fff;height:100vh;left:0;min-height:100vh;overflow:auto;position:fixed;right:0;top:0;z-index:700;-webkit-overflow-scrolling:touch}
+.aem--contentsearch__base--hidden{opacity:0;-webkit-transition-delay:1ms,300ms;transition-delay:1ms,300ms;visibility:hidden}
+.aem--contentsearch__base .stickyContainer__base{position:relative}
+.aem--contentsearch__base .plugincomponent__base{margin-top:56px;position:relative}
+@media(min-width:768px){.aem--contentsearch__base .plugincomponent__base{margin-top:124px;padding-left:calc((( 714px - 198px) / 12) * 2);padding-right:calc((( 714px - 198px) / 12) * 2)}
+}
+@media(min-width:1024px){.aem--contentsearch__base .plugincomponent__base{padding-left:calc((( 918px - 198px) / 12) * 2);padding-right:calc((( 918px - 198px) / 12) * 2)}
+}
+@media(min-width:1280px){.aem--contentsearch__base .plugincomponent__base{padding-left:calc((( 1154px - 242px) / 12) * 2);padding-right:calc((( 1154px - 242px) / 12) * 2)}
+}
+@media(min-width:1440px){.aem--contentsearch__base .plugincomponent__base{padding-left:calc((( 1352px - 308px) / 12) * 2);padding-right:calc((( 1352px - 308px) / 12) * 2)}
+}
+.aem--contentsearch__grid{margin:auto;max-width:90%;min-height:100vh;position:relative}
+.aem--contentsearch__grid.aem--grid-content{padding:0}
+.aem--contentsearch__closeBtn{display:inline-block;text-decoration:none;background:transparent;border:0;margin:15px 0 0;padding:10px;position:absolute;right:0;z-index:1}
+.aem--contentsearch__closeBtn:before{font-size:13px;display:block;color:#fff;font-family:"DaimlerIcons" !important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:"";opacity:1}
+.aem--contentsearch__closeBtn:active:before{color:#00adef}
+.aem.aem--is-not-touch-device .aem--contentsearch__closeBtn{cursor:pointer}
+.aem.aem--is-not-touch-device .aem--contentsearch__closeBtn:hover:before{color:#00adef}
+@media(min-width:768px){.aem--contentsearch__closeBtn{display:inline-block;text-decoration:none;margin:0;top:60px}
+    .aem--contentsearch__closeBtn:before{font-size:17px;display:block;color:#fff;font-family:"DaimlerIcons" !important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:"";opacity:1}
+    .aem--contentsearch__closeBtn:active:before{color:#00adef}
+    .aem.aem--is-not-touch-device .aem--contentsearch__closeBtn{cursor:pointer}
+    .aem.aem--is-not-touch-device .aem--contentsearch__closeBtn:hover:before{color:#00adef}
+}
+.aem--contentsearch__closeBtn:hover{background:#1f1f1f}
+.aem--contentsearch__closeBtn:hover::before{color:#0088c6}
+.aem--contentsearch__stickyContainer{display:block;-webkit-transition:opacity,visibility;transition:opacity,visibility;-webkit-transition-duration:200ms,1ms;transition-duration:200ms,1ms;-webkit-transition-delay:.1s,1ms;transition-delay:.1s,1ms;height:35px;left:0;pointer-events:none;position:fixed;right:0;z-index:701}
+.aem--contentsearch__stickyContainer--hidden{opacity:0;-webkit-transition-delay:1ms,200ms;transition-delay:1ms,200ms;visibility:hidden}
+.aem--contentsearch__stickyContainer .aem--grid-content{height:35px;padding:0;position:relative}
+.aem--contentsearch__stickyCloseBtn{border-top-left-radius:1px;border-top-right-radius:1px;border-bottom-right-radius:1px;border-bottom-left-radius:1px;font-size:1rem;font-family:"MBCorpoSTitle-Regular-Web","DaimlerCS-Regular",Helvetica,Arial,sans-serif;line-height:1.25;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding-left:14px;padding-right:14px;min-height:35px;padding-bottom:8px;padding-top:8px;border:0;background-color:#1f1f1f;color:#ececec;-webkit-transition:background 300ms linear;transition:background 300ms linear;display:inline-block;text-decoration:none;text-align:center;outline:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;font-size:1.125rem;font-family:"MBCorpoSTitle-Regular-Web","DaimlerCS-Regular",Helvetica,Arial,sans-serif;line-height:1.22222;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding-top:0;padding-bottom:.12844em;margin-top:.81633em;margin-bottom:.77778em;padding-top:7px;width:100%;display:inline-block;text-decoration:none;height:35px;margin:0;padding:9px;pointer-events:auto;position:absolute;right:0;width:35px}
+@media(min-width:768px){.aem--contentsearch__stickyCloseBtn{text-align:left;min-height:35px}
+}
+.aem--contentsearch__stickyCloseBtn>span,.aem--contentsearch__stickyCloseBtn>a,.aem--contentsearch__stickyCloseBtn>button{line-height:35px}
+@media(min-width:768px){.aem--contentsearch__stickyCloseBtn>span,.aem--contentsearch__stickyCloseBtn>a,.aem--contentsearch__stickyCloseBtn>button{line-height:35px}
+}
+.aem--contentsearch__stickyCloseBtn:hover{background-color:#161616;color:#ececec;cursor:pointer}
+.aem--contentsearch__stickyCloseBtn:disabled,.aem--contentsearch__stickyCloseBtn.disabled{background-color:#f4f4f4;color:#a8a8a8;cursor:not-allowed}
+.aem--contentsearch__stickyCloseBtn:before{display:none}
+.aem--contentsearch__stickyCloseBtn:before{font-size:13px;display:block;color:#fff;font-family:"DaimlerIcons" !important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:"";opacity:1}
+.aem--contentsearch__stickyCloseBtn:active:before{color:#00adef}
+.aem.aem--is-not-touch-device .aem--contentsearch__stickyCloseBtn{cursor:pointer}
+.aem.aem--is-not-touch-device .aem--contentsearch__stickyCloseBtn:hover:before{color:#00adef}
+@media(min-width:768px){.aem--contentsearch__stickyCloseBtn{display:inline-block;text-decoration:none}
+    .aem--contentsearch__stickyCloseBtn:before{font-size:17px;display:block;color:#fff;font-family:"DaimlerIcons" !important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:"";opacity:1}
+    .aem--contentsearch__stickyCloseBtn:active:before{color:#00adef}
+    .aem.aem--is-not-touch-device .aem--contentsearch__stickyCloseBtn{cursor:pointer}
+    .aem.aem--is-not-touch-device .aem--contentsearch__stickyCloseBtn:hover:before{color:#00adef}
+}
