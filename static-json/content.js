@@ -28,7 +28,10 @@ if ("audience" in urlParams && urlParams.audience == "young_women") {
 }
 
 if ("language" in urlParams) {
-    content.img1 =  'img/test.jpg';
+    content.headerText1 = "Todas las posibilidades, el mismo coche";
+    content.text1 = "La filosofía detrás del dinámico C-Class es mejorar continuamente. El nuevo modelo ofrece más comodidad, más innovación y más estilo que nunca. Explore toda la gama de Mercedes-Benz C-Class hoy.";
+    content.img1 ='img/stageelement_1532291238.MQ6.0.stage.20180727114230.jpeg';
+    content.img2 = content.img3 =content.img4 = content.img5 = '';
 }
 
 
